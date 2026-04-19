@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="0; url=https://usenewsletters.com">
     <meta name="robots" content="noindex, nofollow">
-    <title>Redirecting to UseNewsletters.com...</title>
+    <title>Redirecting to Newsletters...</title>
     <script>
-        window.location.replace("https://usenewsletters.com");
+        var target = "https://usenewsletters.com" + window.location.pathname + window.location.search + window.location.hash;
+        window.location.replace(target);
     </script>
 </head>
 
 <body>
-    <p>Redirecting to <a href="https://usenewsletters.com">UseNewsletters.com</a>...</p>
+    <p>Redirecting to <a href="https://usenewsletters.com">Newsletters</a>...</p>
 </body>
 
 </html>
